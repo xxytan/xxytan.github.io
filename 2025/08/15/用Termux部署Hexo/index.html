@@ -77,7 +77,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"224322.xyz","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"#"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"6zwyhclHi2o7wI7uC25IebEx-MdYXbMMI","app_key":"8pCKs57pG86HwVRd4rHrq8PV","server_url":null,"path":"window.location.pathname","ignore_local":true},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2025-08-13T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"224322.xyz","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"#"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":false,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"6zwyhclHi2o7wI7uC25IebEx-MdYXbMMI","app_key":"8pCKs57pG86HwVRd4rHrq8PV","server_url":null,"path":"window.location.pathname","ignore_local":true},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2025-08-13T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -343,13 +343,13 @@
 <p>其目的是在国内提高下载速度（挂着加速器可以无需进行此步）</p>
 <p>在命令框输入</p>
 <figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs coq">termux-<span class="hljs-built_in">change</span>-repo<br></code></pre></td></tr></table></figure>
-<p>并回车，此时会出现<img src="https://img.224322.xyz/file/25-08-15-1.png" srcset="/img/loading.gif" lazyload alt="1.这样的界面"></p>
+<p>并回车，此时会出现<img src="https://img.224322.xyz/file/25-08-15-1.png" alt="1.这样的界面"></p>
 <blockquote>
 <blockquote>
 <p><em>我们可以使用右下角的方向按钮操控，也可以直接用手点</em></p>
 </blockquote>
 </blockquote>
-<p>选择第二个选项，便会出现<img src="https://img.224322.xyz/file/25-08-15-2.png" srcset="/img/loading.gif" lazyload alt="2.这样的界面"><br><em>如果您英文很好，那么可以根据右边的注释来选择，</em> 如果看不懂，那么直接无脑<strong>选带有<code>tuna</code>字样</strong>的，这是清华大学的镜像源</p>
+<p>选择第二个选项，便会出现<img src="https://img.224322.xyz/file/25-08-15-2.png" alt="2.这样的界面"><br><em>如果您英文很好，那么可以根据右边的注释来选择，</em> 如果看不懂，那么直接无脑<strong>选带有<code>tuna</code>字样</strong>的，这是清华大学的镜像源</p>
 <p>换完源之后，我们就可以进行</p>
 <ul>
 <li><h4 id="1-3-安装Node-js"><a href="#1-3-安装Node-js" class="headerlink" title="1.3.安装Node.js"></a>1.3.安装Node.js</h4></li>
@@ -416,13 +416,13 @@
 <ul>
 <li><h5 id="但如果您是非ROOT用户，"><a href="#但如果您是非ROOT用户，" class="headerlink" title="但如果您是非ROOT用户，"></a>但如果您是非ROOT用户，</h5></li>
 </ul>
-<p>您就不能直接使用MT管理器访问<code>blog</code>文件夹，这时您就可以在ZeroTermux的设置中<img src="https://img.224322.xyz/file/25-08-15-3.png" srcset="/img/loading.gif" lazyload alt="3.通过向右划或按音量➕打开该菜单"><br>依次点击<code>安装/还原Termux官方软件</code>–<code>(Zero)Utermux File Plug</code>–<code>确定</code>，稍等片刻便会开始安装质感文件<br>安装完成后打开，点击左上角三横线，你就会看到<code>访问Utermux文件</code><img src="https://img.224322.xyz/file/25-08-15-4.jpg" srcset="/img/loading.gif" lazyload alt="4.e.g"><br>点击它你就能看到之前创建的<code>hexo</code>文件夹，<code>blog</code>文件夹也在里面，这样就能轻松的查看并编辑配置文件了</p>
+<p>您就不能直接使用MT管理器访问<code>blog</code>文件夹，这时您就可以在ZeroTermux的设置中<img src="https://img.224322.xyz/file/25-08-15-3.png" alt="3.通过向右划或按音量➕打开该菜单"><br>依次点击<code>安装/还原Termux官方软件</code>–<code>(Zero)Utermux File Plug</code>–<code>确定</code>，稍等片刻便会开始安装质感文件<br>安装完成后打开，点击左上角三横线，你就会看到<code>访问Utermux文件</code><img src="https://img.224322.xyz/file/25-08-15-4.jpg" alt="4.e.g"><br>点击它你就能看到之前创建的<code>hexo</code>文件夹，<code>blog</code>文件夹也在里面，这样就能轻松的查看并编辑配置文件了</p>
 <ul>
 <li><h4 id="2-2-启动"><a href="#2-2-启动" class="headerlink" title="2.2.启动"></a>2.2.启动</h4></li>
 </ul>
 <p>输入</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">hexo</span> g; <span class="hljs-attribute">hexo</span> s<br></code></pre></td></tr></table></figure>
-<p>运行后会反出一个4000端口的本地地址（localhost:4000），我们在浏览器打开它，不出所料，你就能看到<img src="https://img.224322.xyz/file/25-08-15-5.png" srcset="/img/loading.gif" lazyload alt="5.这样的页面"><br>这就说明你的<strong>Hexo已经部署成功了！</strong></p>
+<p>运行后会反出一个4000端口的本地地址（localhost:4000），我们在浏览器打开它，不出所料，你就能看到<img src="https://img.224322.xyz/file/25-08-15-5.png" alt="5.这样的页面"><br>这就说明你的<strong>Hexo已经部署成功了！</strong></p>
 <blockquote>
 <blockquote>
 <p><strong>一些操作命令</strong></p>
@@ -458,25 +458,25 @@
 <ul>
 <li><h4 id="3-1-配置"><a href="#3-1-配置" class="headerlink" title="3.1.配置"></a>3.1.配置</h4></li>
 </ul>
-<p>登录<a target="_blank" rel="noopener" href="https://gtihub.com/">Github</a>，创建一个仓库，如果是新账号那么主页会有一个<code>Create repository</code>，点它<br>仓库名称就填 你的用户名+<code>.github.io</code><img src="https://img.224322.xyz/file/25-08-15-6.png" srcset="/img/loading.gif" lazyload alt="6.像这样"><br>再点击<code>Create repository</code>创建仓库</p>
-<p>接着打开账户设置，找到<code>SSH and GPG Keys</code><img src="https://img.224322.xyz/file/25-08-15-7.png" srcset="/img/loading.gif" lazyload alt="7.e.g"><br>再按照下面👇的图片填<img src="https://img.224322.xyz/file/25-08-15-8.png" srcset="/img/loading.gif" lazyload alt="8.e.g"><br>最后点<code>Add SSH key</code>添加公钥</p>
+<p>登录<a target="_blank" rel="noopener" href="https://gtihub.com/">Github</a>，创建一个仓库，如果是新账号那么主页会有一个<code>Create repository</code>，点它<br>仓库名称就填 你的用户名+<code>.github.io</code><img src="https://img.224322.xyz/file/25-08-15-6.png" alt="6.像这样"><br>再点击<code>Create repository</code>创建仓库</p>
+<p>接着打开账户设置，找到<code>SSH and GPG Keys</code><img src="https://img.224322.xyz/file/25-08-15-7.png" alt="7.e.g"><br>再按照下面👇的图片填<img src="https://img.224322.xyz/file/25-08-15-8.png" alt="8.e.g"><br>最后点<code>Add SSH key</code>添加公钥</p>
 <p>然后我们回到Termux，输入</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">ssh</span> -T git<span class="hljs-variable">@github</span>.com<br></code></pre></td></tr></table></figure>
-<p>运行结束后如果出现类似于<img src="https://img.224322.xyz/file/25-08-15-9.png" srcset="/img/loading.gif" lazyload alt="9.这样"><br>的提示，说明已经成功连接到Github了</p>
-<p>接下来我们要配置一下Hexo的配置文件：<br>打开<code>blog</code>目录下的<code>_config.xml</code>，滑到最底部，添加一些文字，像<img src="https://img.224322.xyz/file/25-08-15-10.png" srcset="/img/loading.gif" lazyload alt="这样"><br>然后保存，至此，我们的配置就搞定啦🎉</p>
+<p>运行结束后如果出现类似于<img src="https://img.224322.xyz/file/25-08-15-9.png" alt="9.这样"><br>的提示，说明已经成功连接到Github了</p>
+<p>接下来我们要配置一下Hexo的配置文件：<br>打开<code>blog</code>目录下的<code>_config.xml</code>，滑到最底部，添加一些文字，像<img src="https://img.224322.xyz/file/25-08-15-10.png" alt="这样"><br>然后保存，至此，我们的配置就搞定啦🎉</p>
 <ul>
 <li><h4 id="3-2-部署"><a href="#3-2-部署" class="headerlink" title="3.2.部署"></a>3.2.部署</h4></li>
 </ul>
 <p>返回Termux，输入</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo d</span><br></code></pre></td></tr></table></figure>
-<p>静静等待Hexo被推送到Github仓库，出现<code>done</code>提示后就说明推送完成，然后稍微等待一会儿，在访问 你的用户名➕<code>.github.io</code> 就能成功打开博客啦😋<img src="https://img.224322.xyz/file/25-08-15-11.gif" srcset="/img/loading.gif" lazyload alt="11.嘻嘻"></p>
+<p>静静等待Hexo被推送到Github仓库，出现<code>done</code>提示后就说明推送完成，然后稍微等待一会儿，在访问 你的用户名➕<code>.github.io</code> 就能成功打开博客啦😋<img src="https://img.224322.xyz/file/25-08-15-11.gif" alt="11.嘻嘻"></p>
 <ul>
 <li><h2 id="4-再部署到CloudFlare-Pages上"><a href="#4-再部署到CloudFlare-Pages上" class="headerlink" title="4.再部署到CloudFlare Pages上"></a>4.再部署到CloudFlare Pages上</h2></li>
 <li><h4 id="4-1-部署"><a href="#4-1-部署" class="headerlink" title="4.1.部署"></a>4.1.部署</h4></li>
 </ul>
-<p>登录[Cloudflare仪表盘]，没有账号就注册一个，<br>然后找到<code>计算 (Workers)</code><img src="https://img.224322.xyz/file/25-08-15-12.png" srcset="/img/loading.gif" lazyload alt="12.这个"><br>再点右上角的<code>创建</code>，然后选<code>Pages</code>–<code>导入现有的 Git 存储库</code><img src="https://img.224322.xyz/file/25-08-15-13.png" srcset="/img/loading.gif" lazyload alt="13.开始使用🤨"><br>下一个页面选<code>连接到 Github</code>，然后用你的Github账号授权一下</p>
-<p>再返回来，选择自己相应的仓库，然后直接点<code>开始设置</code><img src="https://img.224322.xyz/file/25-08-15-14.png" srcset="/img/loading.gif" lazyload alt="14.e.g"><br>下一个页面，直接点<code>保持并部署</code>，静静的等待它部署完成😠</p>
-<p>部署完成后会给你个链接（以.pages.dev结尾，点进去就和前面部署到Github是的网页一模一样的<img src="https://img.224322.xyz/file/25-08-15-15.gif" srcset="/img/loading.gif" lazyload alt="15.哇欧！"></p>
+<p>登录[Cloudflare仪表盘]，没有账号就注册一个，<br>然后找到<code>计算 (Workers)</code><img src="https://img.224322.xyz/file/25-08-15-12.png" alt="12.这个"><br>再点右上角的<code>创建</code>，然后选<code>Pages</code>–<code>导入现有的 Git 存储库</code><img src="https://img.224322.xyz/file/25-08-15-13.png" alt="13.开始使用🤨"><br>下一个页面选<code>连接到 Github</code>，然后用你的Github账号授权一下</p>
+<p>再返回来，选择自己相应的仓库，然后直接点<code>开始设置</code><img src="https://img.224322.xyz/file/25-08-15-14.png" alt="14.e.g"><br>下一个页面，直接点<code>保持并部署</code>，静静的等待它部署完成😠</p>
+<p>部署完成后会给你个链接（以.pages.dev结尾，点进去就和前面部署到Github是的网页一模一样的<img src="https://img.224322.xyz/file/25-08-15-15.gif" alt="15.哇欧！"></p>
 <ul>
 <li><h4 id="4-2-绑定域名"><a href="#4-2-绑定域名" class="headerlink" title="4.2.绑定域名"></a>4.2.绑定域名</h4></li>
 </ul>
@@ -597,7 +597,7 @@
             
   
   
-    <article id="comments" lazyload>
+    <article id="comments">
       
   <div id="waline"></div>
   <script type="text/javascript">
@@ -791,10 +791,6 @@
 
 
 
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
 
 
 
