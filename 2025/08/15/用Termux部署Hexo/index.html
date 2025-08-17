@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://hexo.io/themes/screenshots/landscape.png">
 <meta property="article:published_time" content="2025-08-15T01:44:03.000Z">
-<meta property="article:modified_time" content="2025-08-17T20:44:45.000Z">
+<meta property="article:modified_time" content="2025-08-17T20:56:12.000Z">
 <meta property="article:author" content="Kentural">
 <meta property="article:tag" content="Termux">
 <meta property="article:tag" content="Hexo">
@@ -253,7 +253,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          1.5k 字
         
       </span>
     
@@ -264,7 +264,7 @@
         
         
         
-          14 分钟
+          13 分钟
         
       </span>
     
@@ -315,7 +315,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2025-08-18T04:44:45+08:00
+                    本文最后更新于 2025-08-18T04:56:12+08:00
                   
                   
 
@@ -398,25 +398,18 @@
 <li><h4 id="2-1-部署"><a href="#2-1-部署" class="headerlink" title="2.1.部署"></a>2.1.部署</h4></li>
 </ul>
 <p>先输入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> ..; <span class="hljs-built_in">mkdir</span> hexo; <span class="hljs-built_in">cd</span> hexo<br></code></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<p><em>这样做的目的是返回上一级并创建名为<code>hexo</code>的文件夹，并进入该文件夹，</em><br>这个<code>hexo</code>文件夹就用来<strong>存放Hexo的相关文件</strong></p>
-</blockquote>
-</blockquote>
-<p>然后再输入</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">npm install hexo-<span class="hljs-keyword">cli</span> -g<br></code></pre></td></tr></table></figure>
 <p>等待他安装完成，然后再输入</p>
 <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">hexo <span class="hljs-keyword">init</span> blog<br></code></pre></td></tr></table></figure>
 <p>命令运行结束后该文件夹下就会出现一个名为<code>blog</code>，这个文件夹就储存着Hexo的必备文件了</p>
 <ul>
-<li><h5 id="如果您是ROOT用户，"><a href="#如果您是ROOT用户，" class="headerlink" title="如果您是ROOT用户，"></a>如果您是ROOT用户，</h5></li>
+<li><h5 id="如果您是ROOT用户"><a href="#如果您是ROOT用户" class="headerlink" title="如果您是ROOT用户:"></a>如果您是ROOT用户:</h5></li>
 </ul>
-<p>那么您可以直接使用MT管理器访问 <code>/data/data/com.termux/files/hexo/blog</code>来快速查看和编辑配置文件</p>
+<p>那么您可以直接使用MT管理器访问 <code>/data/data/com.termux/files/blog</code>来快速查看和编辑配置文件</p>
 <ul>
-<li><h5 id="但如果您是非ROOT用户，"><a href="#但如果您是非ROOT用户，" class="headerlink" title="但如果您是非ROOT用户，"></a>但如果您是非ROOT用户，</h5></li>
+<li><h5 id="如果您是非ROOT用户"><a href="#如果您是非ROOT用户" class="headerlink" title="如果您是非ROOT用户:"></a>如果您是非ROOT用户:</h5></li>
 </ul>
-<p>您就不能直接使用MT管理器访问<code>blog</code>文件夹，这时您就可以在ZeroTermux的设置中<img src="https://xytan-my.sharepoint.com/personal/a_224322_xyz/_layouts/52/download.aspx?share=EQuRC83CieJNsowAloOolTUBPETbRFTFnaZpqg2luX4dEA" alt="3.通过向右划或按音量➕打开该菜单"><br>依次点击<code>安装/还原Termux官方软件</code>–<code>(Zero)Utermux File Plug</code>–<code>确定</code>，稍等片刻便会开始安装质感文件<br>安装完成后打开，点击左上角三横线，你就会看到<code>访问Utermux文件</code><img src="https://xytan-my.sharepoint.com/personal/a_224322_xyz/_layouts/52/download.aspx?share=EeFMdqXnnsNLhSGVN58W5G0B7a26pNH6S8SPxJh3Cqu1lQ" alt="4.e.g"><br>点击它你就能看到之前创建的<code>hexo</code>文件夹，<code>blog</code>文件夹也在里面，这样就能轻松的查看并编辑配置文件了</p>
+<p>您就不能直接使用MT管理器访问<code>blog</code>文件夹，这时您就可以在ZeroTermux的设置中<img src="https://xytan-my.sharepoint.com/personal/a_224322_xyz/_layouts/52/download.aspx?share=EQuRC83CieJNsowAloOolTUBPETbRFTFnaZpqg2luX4dEA" alt="3.通过向右划或按音量➕打开该菜单"><br>依次点击<code>安装/还原Termux官方软件</code>–<code>(Zero)Utermux File Plug</code>–<code>确定</code>，稍等片刻便会开始安装质感文件<br>安装完成后打开，点击左上角三横线，你就会看到<code>访问Utermux文件</code><img src="https://xytan-my.sharepoint.com/personal/a_224322_xyz/_layouts/52/download.aspx?share=EeFMdqXnnsNLhSGVN58W5G0B7a26pNH6S8SPxJh3Cqu1lQ" alt="4.e.g"><br>点击它你就能看到<code>blog</code>文件夹，这样就能轻松的查看并编辑配置文件了</p>
 <ul>
 <li><h4 id="2-2-启动"><a href="#2-2-启动" class="headerlink" title="2.2.启动"></a>2.2.启动</h4></li>
 </ul>
