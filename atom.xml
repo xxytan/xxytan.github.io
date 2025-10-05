@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kentの博客</title>
+  <icon>https://224322.xyz/icon.png</icon>
+  <subtitle>一个属于Kentural的博客</subtitle>
+  <link href="https://224322.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://224322.xyz/"/>
+  <updated>2025-10-04T14:52:42.000Z</updated>
+  <id>https://224322.xyz/</id>
+  
+  <author>
+    <name>Kentural</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用Termux部署Hexo</title>
+    <link href="https://224322.xyz/20250815-%E7%94%A8termux%E9%83%A8%E7%BD%B2hexo/"/>
+    <id>https://224322.xyz/20250815-%E7%94%A8termux%E9%83%A8%E7%BD%B2hexo/</id>
+    <published>2025-08-15T01:44:03.000Z</published>
+    <updated>2025-10-04T14:52:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;此篇文章结合网络上的方法已经我个人的一些经验撰写，可能有些许不足，请谅解&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;正文开始&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;1-安装并部署Termux环境&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="安卓" scheme="https://224322.xyz/categories/%E5%AE%89%E5%8D%93/"/>
+    
+    <category term="Termux" scheme="https://224322.xyz/categories/%E5%AE%89%E5%8D%93/termux/"/>
+    
+    
+    <category term="Termux" scheme="https://224322.xyz/tags/termux/"/>
+    
+    <category term="Hexo" scheme="https://224322.xyz/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
