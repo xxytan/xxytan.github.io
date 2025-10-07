@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kentの博客</title>
-  <icon>https://224322.xyz/icon.png</icon>
+  <icon>https://www.mauz.top/icon.png</icon>
   <subtitle>一个属于Kentural的博客</subtitle>
-  <link href="https://224322.xyz/atom.xml" rel="self"/>
+  <link href="https://www.mauz.top/atom.xml" rel="self"/>
   
-  <link href="https://224322.xyz/"/>
-  <updated>2025-10-06T06:23:59.005Z</updated>
-  <id>https://224322.xyz/</id>
+  <link href="https://www.mauz.top/"/>
+  <updated>2025-10-07T18:52:08.632Z</updated>
+  <id>https://www.mauz.top/</id>
   
   <author>
     <name>Kentural</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>用Termux部署Hexo</title>
-    <link href="https://224322.xyz/archives/1/"/>
-    <id>https://224322.xyz/archives/1/</id>
+    <link href="https://www.mauz.top/archives/1/"/>
+    <id>https://www.mauz.top/archives/1/</id>
     <published>2025-08-15T01:44:03.000Z</published>
-    <updated>2025-10-06T06:23:59.005Z</updated>
+    <updated>2025-10-07T18:52:08.632Z</updated>
     
     
       
@@ -38,14 +38,14 @@
     
     
     
-    <category term="安卓" scheme="https://224322.xyz/categories/%E5%AE%89%E5%8D%93/"/>
+    <category term="安卓" scheme="https://www.mauz.top/categories/%E5%AE%89%E5%8D%93/"/>
     
-    <category term="Termux" scheme="https://224322.xyz/categories/%E5%AE%89%E5%8D%93/termux/"/>
+    <category term="Termux" scheme="https://www.mauz.top/categories/%E5%AE%89%E5%8D%93/termux/"/>
     
     
-    <category term="Termux" scheme="https://224322.xyz/tags/termux/"/>
+    <category term="Termux" scheme="https://www.mauz.top/tags/termux/"/>
     
-    <category term="Hexo" scheme="https://224322.xyz/tags/hexo/"/>
+    <category term="Hexo" scheme="https://www.mauz.top/tags/hexo/"/>
     
   </entry>
   
