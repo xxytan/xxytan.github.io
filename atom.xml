@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kentの博客</title>
+  <icon>https://www.mauz.top/icon.png</icon>
+  <subtitle>一个属于Kentural的博客</subtitle>
+  <link href="https://www.mauz.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.mauz.top/"/>
+  <updated>2025-12-06T10:46:48.022Z</updated>
+  <id>https://www.mauz.top/</id>
+  
+  <author>
+    <name>Kentural</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.mauz.top/archives/2/"/>
+    <id>https://www.mauz.top/archives/2/</id>
+    <published>2025-12-06T10:46:48.022Z</published>
+    <updated>2025-12-06T10:46:48.022Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>用Termux部署Hexo</title>
+    <link href="https://www.mauz.top/archives/1/"/>
+    <id>https://www.mauz.top/archives/1/</id>
+    <published>2025-08-15T01:44:03.000Z</published>
+    <updated>2025-12-06T08:04:52.000Z</updated>
+    
+    
+    <summary type="html">轻松使用Termux部署一个属于自己的博客</summary>
+    
+    
+    
+    <category term="安卓" scheme="https://www.mauz.top/categories/%E5%AE%89%E5%8D%93/"/>
+    
+    <category term="Termux" scheme="https://www.mauz.top/categories/%E5%AE%89%E5%8D%93/termux/"/>
+    
+    
+    <category term="Termux" scheme="https://www.mauz.top/tags/termux/"/>
+    
+    <category term="Hexo" scheme="https://www.mauz.top/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
